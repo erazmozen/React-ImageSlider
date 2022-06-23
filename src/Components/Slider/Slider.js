@@ -7,12 +7,12 @@ import dataSlider from './dataSlider'       // .. dataSlider podatke
 export default function Slider() {
     
     // Deklarisemo STATE za slider
-    const [slideIndex, setSlideIndex] = useState(1)
+    const [slideIndex, setSlideIndex] = useState(3)
 
     // Funkcije za navigaciju
     // Logika je prosta, ako je slideIndex striktno drugaciji od duzine naseg dataSlider
     // objekta, onda cemo slideIndexu dodati 1, a ako je jednoako duzini bice 1, tacnije]\
-    // vraticemo ga na pocetak
+    // vraticemo ga na pocetak 
     const nextSlide = () => {
         if(slideIndex !== dataSlider.length) {
             setSlideIndex(slideIndex + 1)
