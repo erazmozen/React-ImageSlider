@@ -4,6 +4,7 @@
   margin: 100px auto 0;
   position: relative;
   overflow: hidden;
+  border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 @media screen and (max-width: 700px){
@@ -31,27 +32,29 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: #f1f1f1;
-  border: 1px solid rgba(34, 34, 34, 0.287);
+  background: rgba(0,0,0,.2);
+  border: 0px solid rgba(34, 34, 34, 0.287);
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  box-shadow: -1px 1px 20px 2px rgba(0,0,0,0.1);
 }
 
 .btn-slide img {
   width: 25px;
   height: 25px;
   pointer-events: none;
+  
 }
 .prev {
-  top: 50%;
+  top: 12%;
   left: 20px;
   transform: translateY(-60%);
 }
 .next {
-  top: 50%;
+  top: 12%;
   right: 20px;
   transform: translateY(-60%);
 }
@@ -59,21 +62,25 @@
 
 .container-dots {
   position: absolute;
-  bottom: 10px;
+  top: 5%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
+
 }
 .dot {
-  width: 20px;
-  height: 20px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
-  border: 3px solid #f1f1f1;
+  border: 2px solid #f1f1f1;
   margin: 0 5px;
   background: #f1f1f1;
+  box-shadow: -1px 1px 20px 2px rgba(0,0,0,0.3);
 }
 .dot.active {
-  background: rgb(32, 32, 32);
+  background: rgb(32, 32, 32,0);
+  width: 18px;
+  height: 18px;
 }
 
 .active {
