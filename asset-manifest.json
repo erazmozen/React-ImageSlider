@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-ImageSlider/static/css/main.81ad67cd.css",
+    "main.js": "/React-ImageSlider/static/js/main.97e8765f.js",
+    "static/media/left-arrow.svg": "/React-ImageSlider/static/media/left-arrow.1ecd7675a3aee76f9373c1df363e33b5.svg",
+    "static/media/right-arrow.svg": "/React-ImageSlider/static/media/right-arrow.6428f3cb9a6f8f5d5d58725f52926ec8.svg",
+    "index.html": "/React-ImageSlider/index.html",
+    "main.81ad67cd.css.map": "/React-ImageSlider/static/css/main.81ad67cd.css.map",
+    "main.97e8765f.js.map": "/React-ImageSlider/static/js/main.97e8765f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81ad67cd.css",
+    "static/js/main.97e8765f.js"
+  ]
+}
